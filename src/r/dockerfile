@@ -1,0 +1,10 @@
+FROM r-base:4.4.1
+
+WORKDIR /app
+
+COPY src/r/install_packages.R ./install_packages.R
+RUN Rscript install_packages.R
+
+COPY src/r/ ./src/r/
+
+CMD ["Rscript", "src/r/main.R"]
