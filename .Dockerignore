@@ -1,0 +1,24 @@
+# Git history
+.git/
+
+# Local Python environment
+.venv/
+
+# Python cache files
+**/__pycache__/
+**/*.pyc
+
+# Local datasets (provided through the volume mount)
+src/data/
+
+# Editor settings
+.vscode/
+.idea/
+
+# macOS and notebook files
+**/.DS_Store
+**/.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
