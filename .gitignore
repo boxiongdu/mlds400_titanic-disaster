@@ -1,6 +1,14 @@
-.venv/
+# Dataset
 src/data/
+
+# Local Python environment and generated files
+.venv/
 __pycache__/
 *.pyc
+
+# Local configuration
 .DS_Store
+.ipynb_checkpoints/
 .env
+.vscode/
+.idea/
